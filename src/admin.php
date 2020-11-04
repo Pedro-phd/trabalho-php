@@ -19,28 +19,30 @@
     }
 </style>
 <body>
-    <form action="">
+    <form method="post" action="insert-produto.php">
         <hr>
         <h1>Cadastrar Produto</h1>
         <h3>Nome</h3>
-        <input type="text" placeholder="Nome">
+        <input type="text" name="nome_produto" placeholder="Nome">
         <h3>Código</h3>
-        <input type="text" placeholder="Código">
+        <input type="text" name="cod_produto" placeholder="Código">
         <h3>Valor Unitario</h3>
-        <input type="text" placeholder="Valor Unitario">
+        <input type="text" name="val_unit_produto" placeholder="Valor Unitario">
         <h3>Quantidade em estoque</h3>
-        <input type="text" placeholder="Quantidade em estoque">
+        <input type="text" name="qnt_estoque_produto" placeholder="Quantidade em estoque">
+        <h3>Dimensões</h3>
+        <input type="text" name="dimensoes_produto" placeholder="Dimensões do produto">
         <h3>Descrição</h3>
-        <textarea name="Descrição" id="" cols="30" rows="10"></textarea>
+        <textarea name="Descrição" name="desc_produto" id="" cols="30" rows="10"></textarea>
         <h3>Peso KG</h3>
-        <input type="number" placeholder="Peso KG">
+        <input type="number" name="peso_produto" placeholder="Peso KG">
         <h3>Categoria</h3>
-        <select name="categoria" id="categoria">
+        <select name="categoria_produto" id="categoria">
             <option value="default">Nenhuma Categoria</option>
             <option value="Teste1">Teste1</option>
             <option value="Teste2">Teste1</option>
         </select>
-        <button>Cadastrar</button>
+        <input type="submit" value="Cadastrar">
         <hr>
     </form>
     <form action="">
