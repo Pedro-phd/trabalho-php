@@ -12,7 +12,6 @@
         <h1>EletroFacil</h1>
         <div class="header-login">
             <a href="#" class="desktop">Carrinho</a>
-            <a href="#" class="desktop">Login</a>
             <a href="#" class="desktop">Admin</a>
         </div>
     </div>
@@ -21,7 +20,6 @@
         <a href="#">componentes</a>
         <a href="#">promoção</a>
         <a href="#" class="mobile">carrinho</a>
-        <a href="#" class="mobile">login</a>
         <a href="#" class="mobile">Admin</a>
     </div>
 </header>
