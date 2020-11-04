@@ -13,6 +13,7 @@
         <div class="header-login">
             <a href="#" class="desktop">Carrinho</a>
             <a href="#" class="desktop">Login</a>
+            <a href="#" class="desktop">Admin</a>
         </div>
     </div>
     <div class="header-menu menu">
@@ -21,6 +22,7 @@
         <a href="#">promoção</a>
         <a href="#" class="mobile">carrinho</a>
         <a href="#" class="mobile">login</a>
+        <a href="#" class="mobile">Admin</a>
     </div>
 </header>
 </html>
