@@ -23,19 +23,19 @@
         <hr>
         <h1>Cadastrar Produto</h1>
         <h3>Nome</h3>
-        <input type="text" name="nome_produto" placeholder="Nome">
+        <input type="text" name="nome_produto" placeholder="Nome" required>
         <h3>Código</h3>
-        <input type="text" name="cod_produto" placeholder="Código">
+        <input type="text" name="cod_produto" placeholder="Código" required>
         <h3>Valor Unitario</h3>
-        <input type="text" name="val_unit_produto" placeholder="Valor Unitario">
+        <input type="text" name="val_unit_produto" placeholder="Valor Unitario" required>
         <h3>Quantidade em estoque</h3>
-        <input type="text" name="qnt_estoque_produto" placeholder="Quantidade em estoque">
+        <input type="text" name="qnt_estoque_produto" placeholder="Quantidade em estoque" required>
         <h3>Dimensões</h3>
-        <input type="text" name="dimensoes_produto" placeholder="Dimensões do produto">
+        <input type="text" name="dimensoes_produto" placeholder="Dimensões do produto" required>
         <h3>Descrição</h3>
-        <textarea name="Descrição" name="desc_produto" id="" cols="30" rows="10"></textarea>
+        <input type="text" name="desc_produto" placeholder="Descrição" required>
         <h3>Peso KG</h3>
-        <input type="number" name="peso_produto" placeholder="Peso KG">
+        <input type="number" name="peso_produto" placeholder="Peso KG" required>
         <h3>Categoria</h3>
         <select name="categoria_produto" id="categoria">
             <option value="default">Nenhuma Categoria</option>

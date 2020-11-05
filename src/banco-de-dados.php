@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 function conectar(){
-	$dsn = "mysql:host=localhost;dbname=escola";
+	$dsn = "mysql:host=localhost;dbname=projetophp";
 	$user = "root";
 	$senha = "";
 	$conn = new PDO($dsn,$user,$senha);
@@ -14,3 +14,4 @@ function conectar(){
 	return $conn;
 }
 
+?>
